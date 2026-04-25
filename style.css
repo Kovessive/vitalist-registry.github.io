@@ -1,0 +1,34 @@
+.profile-section {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 25px;
+}
+
+.profile-img {
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid #2a2a2f;
+}
+
+.card-visual {
+  width: 140px;
+  margin-top: 15px;
+  border-radius: 8px;
+  border: 1px solid #444;
+}
+
+.identity-block h2 {
+  margin-top: 0;
+}
+
+.officer-banner {
+  background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+  padding: 15px;
+  border-left: 4px solid cyan;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.rank-S { color: #ff1a1a; }
+.rank-A { color: #ff7a1a; }
+.rank-C { color: #ccc; }

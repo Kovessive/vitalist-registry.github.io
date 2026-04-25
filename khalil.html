@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Khalil Morgan</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+
+  <style>
+    /* Extra S-Rank styling */
+    .s-rank-banner {
+      background: linear-gradient(90deg, #1a0000, #330000, #660000);
+      border-left: 5px solid red;
+      padding: 15px;
+      margin-bottom: 20px;
+      font-weight: bold;
+      color: #ff4d4d;
+      text-shadow: 0 0 10px red;
+    }
+
+    .pulse {
+      animation: pulse 1.5s infinite;
+    }
+
+    @keyframes pulse {
+      0% { text-shadow: 0 0 5px red; }
+      50% { text-shadow: 0 0 20px red; }
+      100% { text-shadow: 0 0 5px red; }
+    }
+  </style>
+
+</head>
+<body>
+
+<header>
+  <h1>VRB WANTED FILE</h1>
+  <a href="index.html">← Back</a>
+</header>
+
+<div class="container">
+
+<div class="s-rank-banner pulse">
+  ⚠ EXTREME THREAT — S-RANK VITALIST ⚠
+</div>
+
+<div class="card">
+  <div class="profile-section">
+
+    <div>
+      <img src="images/khalil.jpg" class="profile-img">
+      <img src="images/khalil_card.png" class="card-visual">
+    </div>
+
+    <div class="identity-block">
+      <h2>Khalil Morgan</h2>
+      <div class="danger rank-S pulse">THREAT LEVEL: S</div>
+
+      <div class="grid">
+        <div>
+          <div class="label">Age</div>
+          <div class="value">22</div>
+
+          <div class="label">Status</div>
+          <div class="value danger">WANTED</div>
+
+          <div class="label">Affiliation</div>
+          <div class="value">None</div>
+        </div>
+
+        <div>
+          <div class="label">Card</div>
+          <div class="value">Ace ♦ (Enhanced)</div>
+
+          <div class="label">Weapon</div>
+          <div class="value">Domino Brace (Gauntlets)</div>
+
+          <div class="label">Range</div>
+          <div class="value">Close</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="card">
+  <h3>Ability</h3>
+  <p>
+    <b>Impact Matrix – Absolute Detonation</b><br><br>
+    Every landed strike triggers a guaranteed essence explosion on impact. 
+    Detonations disrupt internal essence flow, targeting the “essence pit” and causing severe internal instability.
+  </p>
+</div>
+
+<div class="card">
+  <h3>Combat Profile</h3>
+  <p>
+    Close-range pressure fighter. Actively trades hits to trigger explosive counter-damage. 
+    Uses recoil and blast force as momentum rather than avoiding damage.
+  </p>
+</div>
+
+<div class="card">
+  <h3>Threat Advisory</h3>
+  <p class="danger pulse">
+    DO NOT ENGAGE IN CLOSE RANGE.<br><br>
+    Subject benefits from direct exchanges and will overpower most opponents through chained detonation strikes.
+    Engagement requires long-range suppression or multi-unit coordination.
+  </p>
+
+  <button onclick="report()">Report Sighting</button>
+</div>
+
+</div>
+</body>
+</html>
